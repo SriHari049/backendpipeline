@@ -36,6 +36,7 @@ public class AppController {
 	@DeleteMapping("/delete/{id}")
 	public String delete(@PathVariable int id) {
 		return s.deleteData(id);
+		
 	}
 	
 }
